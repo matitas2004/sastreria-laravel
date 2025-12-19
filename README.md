@@ -9,11 +9,14 @@
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and
+creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in
+many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache)
+  storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
 - [Robust background job processing](https://laravel.com/docs/queues).
@@ -23,13 +26,18 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all
+modern web application frameworks, making it a breeze to get started with the framework. You can also check
+out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video
+tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging
+into our comprehensive video library.
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in
+becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
 ### Premium Partners
 
@@ -44,16 +52,61 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in
+the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+In order to ensure that the Laravel community is welcoming to all, please review and abide by
+the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell
+via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+Tarea - Desarrollo en Plataformas
+Estudiante: Mathias Rivera
+Fecha: 19/12/2025
+Paralelo: (coloca tu paralelo)
+
+Mis Decisiones de Diseño
+
+1. Tabla
+Nombre de la tabla: trabajos
+
+Campos:
+
+Campo              Tipo      ¿Obligatorio?
+id                 bigint    Sí
+tipo_prenda         varchar   Sí
+arreglo             varchar   Sí
+cliente_nombre      varchar   Sí
+cliente_telefono    varchar   Sí
+estado              varchar   Sí
+created_at          timestamp Sí
+updated_at          timestamp Sí
+
+2. Tipos de vehículo
+(Adaptado al caso: Estados del trabajo)
+- Recibido
+- En proceso
+- Listo
+- Entregado
+
+3. ¿Se puede eliminar registros?
+Respuesta: Sí
+
+Razón (1 línea):
+Se permite eliminar registros para corregir errores o eliminar trabajos creados por equivocación.
+
+GIT:
+https://github.com/matitas2004/sastreria-laravel.git
+
